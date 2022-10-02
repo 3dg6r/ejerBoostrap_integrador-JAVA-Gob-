@@ -4,7 +4,7 @@
     margin: 0;
 }
 /* NAV BAR */
-#nav-principal
+/* #nav-principal
 {
     background-color: rgb(67, 69, 75) !important;
     
@@ -28,32 +28,38 @@
 #nav-tickets
 {
     color: rgb(92, 168, 92);
-}
+} */
 
-/* FOTO DE LA PAgINA */
+/* carrosel DE LA PAgINA */
 #texto-imagen
 {
-    position: absolute;
-    left: 1000px;
+    float: right;
+    left: 900px;
     top: 400px;
     text-align: right;
+    
 
 }
 
-#texto-imagen p
+.carousel-item {filter: brightness(75%);}
+
+#texto-imagen p, #texto-imagen .card-title
 {
     position: relative;
     font-size: 22px;
     left: 360px;
     width: 500px;
+    color: white;
     
 }
 
-#btn-imagen
+#btn-imagen, #texto-imagen button
 {
 
     color: white;
     border-color: white;
+    position: relative;
+    right: 150px;
     
 }
 
@@ -61,6 +67,7 @@
 {
     background-color: rgb(219, 213, 213);
 }
+
 
 /* cards */
 
